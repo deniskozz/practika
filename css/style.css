@@ -6,76 +6,81 @@ a {
     font-size: 17px;
 }
 
-h1,h2,h3,h4,h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Montserrat', serif;
 }
 
-.dark-bg-box{
+.dark-bg-box {
     background-color: #3B3738;
 }
 
-.nav-bot a{
+.nav-bot a {
     color: #fff;
 }
 
-.carousel-item{
+.carousel-item {
     max-height: 340px;
 }
 
-.category-card{
+.category-card {
     box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
     max-height: 300px;
     height: 100%;
     font-size: 16px;
 }
 
-.card-title{ 
+.card-title {
     font-size: 20px;
     text-align: center;
 }
 
-.carousel-hits-card{
+.carousel-hits-card {
     max-width: 250px;
     height: 100%;
     border: none;
     box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
 }
 
-.carousel-inner{
+.carousel-inner {
     height: 450px;
 }
 
-.card-group{
+.card-group {
     height: 100%;
 }
 
-.ship-name{
+.ship-name {
     text-transform: uppercase;
 }
 
-.delivery{
+.delivery {
     margin-top: 5em;
 }
 
-.carousel-control-prev, .carousel-control-next{
+.carousel-control-prev,
+.carousel-control-next {
     max-width: 50px;
 }
 
 
-.photo-block-text-margin{
+.photo-block-text-margin {
     margin-top: 5em;
     margin-bottom: 10px;
 }
 
-.gallery-item{
+.gallery-item {
     max-width: 200px;
     margin-top: 10px;
 }
 
-footer{
+footer {
     background-color: #2A2A2A;
 }
 
-.footer-link{
+.footer-link {
     color: #4C57FF;
 }
