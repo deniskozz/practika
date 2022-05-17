@@ -133,4 +133,10 @@ li.text{
     text-align: center;
 }
 
+.list{
+    max-height: 100px;
+}
 
+.cart-list-img{
+    max-width: 10%;
+}
