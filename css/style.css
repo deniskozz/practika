@@ -66,6 +66,9 @@ h5 {
     max-width: 50px;
 }
 
+.btn{
+    font-family: 'Montserrat', serif;
+}
 
 .photo-block-text-margin {
     margin-top: 5em;
@@ -83,4 +86,40 @@ footer {
 
 .footer-link {
     color: #4C57FF;
+}
+
+.breadcrumb-item {
+    font-size: 14px;
+    color: #6c757d;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.breadcrumb-item.active{
+    color: #4C57FF;
+    font-size: 16px;
+}
+
+.product-name-title{
+    font-size: 24px;
+}
+
+.product-box{
+    border: 1px solid #c4c4c48e;
+}
+
+.properties-box ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.price{
+    font-family: 'Montserrat', serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+li.text{
+    font-weight: 500;
 }
