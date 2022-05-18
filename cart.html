@@ -11,12 +11,15 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
         rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a href="" class="navbar-brand"><svg width="150" height="50" viewBox="0 0 150 50" fill="#fff"
+            <a href="/" class="navbar-brand"><svg width="150" height="50" viewBox="0 0 150 50" fill="#fff"
                     xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" y="0.5" width="149" height="49" fill="#000" stroke="white" />
                     <path
@@ -25,11 +28,11 @@
                 </svg>
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                data-bs-target="#collapsibleNav" aria-controls="collapsibleNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <div class="collapse navbar-collapse" id="collapsibleNav">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="catalog.html">Каталог</a>
@@ -53,9 +56,8 @@
     </nav>
     <main>
         <div class="container">
-            <h2 class="mt-3">Корзина</h2>
-            <div class="list d-flex justify-content-between align-items-center">
-                <p class="number">1.</p>
+            <h2 class="mt-4 mb-5">Корзина</h2>
+            <div class="list d-flex justify-content-between align-items-center mb-5">
                 <img class="img-fluid cart-list-img" src="img/case2.jpg" alt="">
                 <div class="info d-flex flex-column">
                     <p class="name">Название чехла</p>
@@ -68,12 +70,12 @@
                     <button class="btn plus-btn">+</button>
                 </div>
                 <p class="price">500 Рублей</p>
-                <button class="btn delete-btn btn-close"></button>
+                <button class="btn delete-btn btn-close btn-outline-danger"></button>
             </div>
 
             <div class="my-3">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md">
                         <label for="FIO" class="form-label">Введите ФИО</label>
                         <input type="text" name="" id="FIO" class="form-control" placeholder="Иванов Иван Иваныч" aria-describedby="helpId">
                         <label for="phone" class="form-label">Введите номер телефона</label>
@@ -81,7 +83,7 @@
                         <label for="email" class="form-label">Введите email</label>
                         <input type="email" name="" id="email" class="form-control" placeholder="example@yandex.ru" aria-describedby="helpId">
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <label for="gorod" class="form-label">Выберите ваш город</label>
                         <select class="form-select" aria-label="city select" id="gorod">
                             <option selected>Москва</option>
@@ -92,20 +94,20 @@
                         <label for="street" class="form-label">Укажите улицу</label>
                         <input type="text" name="" id="street" class="form-control" placeholder="Пушкина" aria-describedby="helpId">
                         <div class="addres-box row">
-                            <div class="col">
+                            <div class="col-md">
                                 <label for="dom" class="form-label">Введите номер дома</label>
                                 <input type="email" name="" id="dom" class="form-control" placeholder="1" aria-describedby="helpId">
                             </div>
-                            <div class="col">
+                            <div class="col-md">
                                 <label for="kvartira" class="form-label">Введите номер квартиры</label>
                                 <input type="email" name="" id="kvartira" class="form-control" placeholder="125" aria-describedby="helpId">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="delivery-choose">
+                <div class="delivery-choose mt-5">
                     <p>Выберите способ доставки</p>
-                    <div class="mb-3 d-flex justify-content-between">
+                    <div class="mb-3 d-flex justify-content-between flex-lg-row flex-column">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                             <label class="form-check-label" for="inlineRadio1">Курьер</label>
@@ -122,9 +124,10 @@
                             <small id="helpId" class="text-muted">Бесплатно</small>
                         </div>
                     </div>
+                    <hr class="my-3">
                 </div>
-                <hr class="my-3">
-                <div class="pay-box d-flex justify-content-end align-items-center">
+                
+                <div class="pay-box d-flex justify-content-md-end align-items-center justify-content-center">
                     <p class="price-all m-0 me-5">1000 рублей</p>
                     <button type="button" class="btn btn-primary">Оплатить</button>
                 </div>
